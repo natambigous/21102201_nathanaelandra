@@ -12,8 +12,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Hello World",
-      home: const MyHomePage(title: "Flutter Hello World Page"),
+      title: "Instalasi Flutter Tugas 1.1",
+      home: const MyHomePage(title: "Tugas 1.1"),
     );
   }
 }
@@ -36,7 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Center(
         child: Text(
-          'Hello World',
+          'NAMA : NATHANAEL ANDRA WIJAYA' ' ' 'NIM  : 21102201',
         ),
       ),
     );
