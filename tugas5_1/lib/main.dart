@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Networking Example',
+      title: 'TUGAS 5.1 GET',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -132,7 +132,7 @@ class _CommentsScreenState extends State<CommentsScreen> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            'Comment ${currentIndex + 1} of ${comments.length}',
+                            'Comment ${currentIndex + 1} dari ${comments.length}',
                             style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                           ),
                           SizedBox(height: 10),
