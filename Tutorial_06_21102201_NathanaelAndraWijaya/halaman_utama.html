@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Selanjutnya</title>
+    <style>
+        /* Gaya CSS untuk halaman selanjutnya (sesuai dengan kode HTML terakhir) */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            border-bottom: 2px solid black;
+        }
+
+        .logo {
+            border: 1px solid black;
+            padding: 0px;
+            width: 100px;
+            height: 100px;
+            position: relative;
+            overflow: hidden;
+            border-width: 0cm;
+        }
+
+        .logo img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .nama {
+            border: 1px solid black;
+            padding: 10px;
+            height: 100px;
+            border-width: 0cm;
+            position: relative;
+            text-align: inherit;
+        }
+
+        .content {
+            border: 1px solid black;
+            margin: 10px;
+            padding: 10px;
+            height: 200px;
+            overflow-y: auto;
+            text-align: justify;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            border-top: 2px solid black;
+        }
+
+        .button {
+            padding: 10px 20px;
+            background-color: gray;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .navbar {
+            background-color: #343a40;
+            padding: 10px;
+            color: white;
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar strong {
+            margin-right: 10px;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .navbar li {
+            margin: 0 10px;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        .navbar .search-container {
+            margin-left: auto;
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar input {
+            padding: 5px;
+            border: none;
+            border-radius: 3px;
+        }
+
+        .navbar button {
+            padding: 5px 10px;
+            background-color: transparent;
+            border: 1px solid #007bff;
+            color: #007bff;
+            cursor: pointer;
+            border-radius: 3px;
+            margin-left: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="logo.jpg" alt="Logo">
+        </div>
+        <div class="nama">NATHANAEL ANDRA WIJAYA <br /> 21102201</div>
+    </div>
+    <nav class="navbar">
+        <strong>Navbar</strong>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+        <div class="search-container">
+            <input type="text" placeholder="Search">
+            <button>Search</button>
+        </div>
+    </nav>
+    <div class="content">
+        Halaman selanjutnya berisi kucing
+    </div>
+    <div class="footer">
+        <button class="button">Previous</button>
+        <button class="button"><a href="halaman_selanjutnya.html">Next</a></button>
+    </div>
+</body>
+
+</html>

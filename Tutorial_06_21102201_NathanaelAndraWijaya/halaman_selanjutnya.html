@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Utama</title>
+    <style>
+        /* Gaya CSS untuk halaman utama (sesuai dengan gambar pertama) */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            border-bottom: 2px solid black;
+        }
+        .navbar {
+            background-color: #343a40;
+            padding: 10px;
+            color: white;
+            display: flex;
+            align-items: center;
+        }
+        .navbar strong {
+            margin-right: 10px;
+        }
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .navbar li {
+            margin: 0 10px;
+        }
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        .navbar .search-container {
+            margin-left: auto;
+            display: flex;
+            align-items: center;
+        }
+        .navbar input {
+            padding: 5px;
+            border: none;
+            border-radius: 3px;
+        }
+        .navbar button {
+            padding: 5px 10px;
+            background-color: transparent;
+            border: 1px solid #007bff;
+            color: #007bff;
+            cursor: pointer;
+            border-radius: 3px;
+            margin-left: 5px;
+        }
+        .navigation {
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid black;
+            font-weight: bold;
+        }
+        .main-content {
+            display: flex;
+            margin: 10px;
+        }
+        .sidebar {
+            width: 20%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+        }
+        .sidebar .button {
+            width: 80%;
+            padding: 10px;
+            margin: 5px 0;
+            color: white;
+            border: none;
+            cursor: pointer;
+            text-align: center; /* Agar teks tetap di tengah */
+        }
+        .sidebar .btn-outline-create {
+            background-color: #28a745; /* Hijau */
+        }
+        .sidebar .btn-outline-read {
+            background-color: #007bff; /* Biru */
+        }
+        .sidebar .btn-outline-delete {
+            background-color: #dc3545; /* Merah */
+        }
+        .sidebar .btn-outline-update {
+            background-color: #ffc107; /* Kuning */
+            color: #212529; /* Ubah warna teks agar terlihat di latar belakang kuning */
+        }
+        .content {
+            width: 75%;
+            border: 1px solid black;
+            padding: 10px;
+            height: 300px;
+            overflow-y: auto;
+            text-align: left;
+        }
+        .footer {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            border-top: 2px solid black;
+        }
+        .footer .button {
+            padding: 10px 20px;
+            background-color: gray;
+            color: white;
+            border: none;
+            cursor: pointer;
+            text-decoration: none; /* Menghilangkan garis bawah pada link */
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <strong>Navbar</strong>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+        <div class="search-container">
+            <input type="text" placeholder="Search">
+            <button>Search</button>
+        </div>
+    </nav>
+    <div class="main-content">
+        <div class="sidebar">
+            <button type="button" class="sidebar button btn-outline-create">Create</button>
+            <button type="button" class="sidebar button btn-outline-read">Read</button>
+            <button type="button" class="sidebar button btn-outline-delete">Delete</button>
+            <button type="button" class="sidebar button btn-outline-update">Update</button>
+        </div>
+        <div class="content">Ini adalah karakter-karakter yang terdapat di Honkai Star Rail
+            <img src="cat.jpg" class="img-fluid">
+        </div>
+    </div>
+    <div class="footer">
+        <button class="button"><a href="halaman_utama.html">Previous</a></button>
+    </div>
+</body>
+</html>
